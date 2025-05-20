@@ -55,3 +55,18 @@ html, body {
   font-size: 1.4rem;
   color: var(--secundaria);
 }
+
+@media (max-width: 480px) {
+  .checkout-container {
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+
+  .qr-code {
+    max-width: 220px;
+  }
+
+  .mensagem {
+    font-size: 1rem;
+  }
+}
